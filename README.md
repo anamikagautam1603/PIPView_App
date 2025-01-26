@@ -18,21 +18,21 @@ This is a simple Flutter application that demonstrates the Picture-in-Picture (P
 
 ## Installation
 
-Clone the repository:
+1. Clone the repository:
 
-git clone <repository_url>
+       `git clone <repository_url>`
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-cd pip_view_app
+       `cd pip_view_app`
 
-Install dependencies:
+3. Install dependencies:
 
-flutter pub get
+       `flutter pub get`
 
-Run the app:
+4. Run the app:
 
-flutter run
+       `flutter run`
 
 ## Requirements
 
