@@ -1,16 +1,57 @@
-# pip_view_app
+# PIP View App
 
-A new Flutter project.
+This is a simple Flutter application that demonstrates the Picture-in-Picture (PIP) feature using the pip_view package.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* PIP Mode: Displays content in a small floating window.
 
-A few resources to get you started if this is your first Flutter project:
+* Multi-Tasking: Allows switching between the main screen and a floating PIP view.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How It Works
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. On the home screen, click the "Start Floating" button.
+
+2. The app enters PIP mode and displays the content in a smaller floating window.
+
+3. The background screen will display a message: "This is the background page!"
+
+## Installation
+
+Clone the repository:
+
+git clone <repository_url>
+
+Navigate to the project directory:
+
+cd pip_view_app
+
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+## Requirements
+
+* Flutter SDK
+
+* Compatible device/emulator
+
+## Packages Used
+
+* pip_view: For implementing PIP functionality.
+ 
+## Screenshots
+
+* Home Screen: Displays a button to start PIP mode.
+
+* PIP View: Shows floating content with a background page.
+
+## License
+
+This project is licensed under the MIT License.
+
+Enjoy experimenting with PIP functionality in your Flutter projects!
